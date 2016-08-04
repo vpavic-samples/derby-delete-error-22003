@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	testCompile 'junit:junit:4.12'
+	testCompile 'org.apache.derby:derby:10.12.1.1'
+}
