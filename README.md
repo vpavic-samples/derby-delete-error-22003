@@ -1,5 +1,10 @@
 # Apache Derby - DELETE error 22003
 
+**UPDATE**:
+This issue was reported in [DERBY-6902](https://issues.apache.org/jira/browse/DERBY-6902).
+
+---
+
 This is a minimal project to demonstrate _The resulting value is outside the range for the data type INTEGER_ error that occurs when attempting to delete records using an expression in `WHERE` clause.
 For example:
 
